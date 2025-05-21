@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <a href="#">UMS</a>
+                </div>
+                <nav class="d-flex gap-15">
+                    <a href="./index.html">Home</a>
+                    <a href="./create.html">Create</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="update-user">
+        <div class="container">
+            <h1>Edit User</h1>
+            <div class="text-danger"></div>
+            <form class="update-form">
+                <input name="userName" type="text" placeholder="User Name" />
+                <input name="email" type="email" readonly />
+                <input name="phone" type="text" readonly/>
+                <button type="submit">Update</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./update.js"></script>
+</body>
+</html>
